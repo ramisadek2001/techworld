@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ProfileFragment"
+    android:orientation="vertical"
+    android:background="#F5F5F8">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/profile_tool"
+        android:layout_width="match_parent"
+        android:layout_height="82dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="checkout"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="5dp"
+
+        android:fontFamily="@font/raleway_extrabold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Shipping information"
+            android:fontFamily="@font/raleway_extrabold"
+            android:textSize="18dp"
+            android:layout_gravity="left|bottom">
+
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/change"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="100dp"
+            android:textSize="13dp"
+            android:fontFamily="@font/raleway_extrabold"
+            android:textAllCaps="false"
+            android:background="#00000000"
+            android:textColor="#5956E9"
+            android:text="change">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/profile"></ImageView>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:textColor="#494848">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/location"></ImageView>
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:textColor="#494848">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/call"></ImageView>
+            <TextView
+                android:id="@+id/phonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:textColor="#494848">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Payment Method"
+            android:fontFamily="@font/raleway_extrabold"
+            android:textSize="18dp"
+            android:layout_gravity="left|bottom">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/round"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <RadioButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp">
+
+            </RadioButton>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/visa"></ImageView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="**** **** **** 1234"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:textColor="#494848">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp">
+
+            </RadioButton>
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/cash"></ImageView>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="cash on delivery"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/raleway_extrabold"
+                android:textColor="#494848">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/confirm"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#5956E9"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="Confirm"
+        android:textAlignment="center"
+
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        tools:ignore="RtlCompat"
+
+        />
+
+
+</LinearLayout>

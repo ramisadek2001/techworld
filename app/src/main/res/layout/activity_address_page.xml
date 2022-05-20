@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1F1BC8"
+    tools:context=".signup">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/profile_tool"
+        android:layout_width="match_parent"
+        android:layout_height="82dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:fontFamily="@font/raleway_black"
+        android:text="Add\nAddress"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <EditText
+
+            android:paddingBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/addTitle"
+            android:fontFamily="@font/raleway_extrabold"
+            android:hint="Address title"
+            android:maxLines="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+
+            ></EditText>
+        <EditText
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/street"
+            android:hint="Street"
+
+            android:maxLines="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/raleway_extrabold"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+
+            ></EditText>
+        <EditText
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/building"
+            android:hint="Building"
+            android:maxLines="1"
+            android:fontFamily="@font/raleway_extrabold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+
+            ></EditText>
+        <EditText
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/apartment"
+            android:hint="Apartment"
+            android:maxLines="1"
+            android:fontFamily="@font/raleway_extrabold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+
+            ></EditText>
+        <EditText
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/instructions"
+            android:hint="Instructions for the driver (optional)"
+            android:maxLines="1"
+            android:fontFamily="@font/raleway_extrabold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="0dp"
+
+            ></EditText>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/confirm"
+            android:layout_width="253dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#1F1BC8"
+            android:fontFamily="@font/raleway_extrabold"
+            android:text="Confirm"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1F1BC8"
+    tools:context=".signup">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/ellipse1"></ImageView>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/ellipse2"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:fontFamily="@font/raleway_black"
+        android:text="Register\nHere"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/ellipse1"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+    <EditText
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/Fullname"
+        android:fontFamily="@font/raleway_extrabold"
+        android:hint="Full Name"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+
+        ></EditText>
+    <EditText
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/Phone"
+        android:hint="Mobile"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+
+        ></EditText>
+    <EditText
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:maxLines="1"
+        android:fontFamily="@font/raleway_extrabold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+
+        ></EditText>
+
+    <EditText
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/conpassword"
+        android:hint="Password"
+        android:maxLines="1"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:layout_marginEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+
+        ></EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/RegisterBtn"
+        android:layout_width="253dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#1F1BC8"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/raleway_extrabold"
+            android:text="Already have an account?"
+            />
+
+        <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/loginNow"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/raleway_extrabold"
+            android:layout_height="wrap_content"
+            android:text="Login Now"
+            android:textStyle="bold"
+            android:textColor="#1F1BC8"/>
+    </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

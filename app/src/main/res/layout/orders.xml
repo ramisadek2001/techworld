@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:background="#F2F2F2"
+    android:layout_marginTop="10dp"
+
+
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView
+        android:id="@+id/cvTicket"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/white"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp" />
+
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="254dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/cvTicket"
+        android:layout_alignTop="@+id/cvTicket"
+        android:layout_alignEnd="@+id/cvTicket"
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="iphone 8 plus- new model 2020 brand new"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="112dp"
+        android:layout_height="59dp"
+
+        android:layout_alignTop="@id/cvTicket"
+        android:layout_alignEnd="@id/cvTicket"
+
+
+        android:layout_marginStart="267dp"
+
+
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="delivered"
+        android:textAlignment="center"
+        android:textColor="#5956E9"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+

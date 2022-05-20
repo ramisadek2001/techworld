@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "928161624990",
+    "firebase_url": "https://techworld-69698-default-rtdb.firebaseio.com",
+    "project_id": "techworld-69698",
+    "storage_bucket": "techworld-69698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928161624990:android:a378023337b2e93d6d9c8f",
+        "android_client_info": {
+          "package_name": "com.lau.techworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928161624990-tbr5f2ioiugepfgakg8vcgu7sr18na24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUbE9OSFXxmt0NZcgz5_mGDm_Xz3VmT-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928161624990-tbr5f2ioiugepfgakg8vcgu7sr18na24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

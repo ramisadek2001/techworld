@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:background="#F2F2F2"
+
+
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView
+        android:id="@+id/cvTicket"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/white"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="50dp" />
+
+
+    <TextView
+        android:id="@+id/Cprice"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/cvTicket"
+
+        android:layout_alignBottom="@id/cvTicket"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="-54dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="190$"
+        android:textColor="#5956E9"
+        android:textSize="20dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CimgCircle"
+        android:layout_width="126dp"
+        android:layout_height="120dp"
+        android:layout_alignStart="@+id/cvTicket"
+        android:layout_alignTop="@+id/cvTicket"
+        android:layout_alignEnd="@+id/cvTicket"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="255dp"
+        android:translationZ="90dp"
+
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+
+        />
+
+    <TextView
+        android:id="@+id/Ctitle"
+        android:layout_width="231dp"
+        android:layout_height="58dp"
+        android:layout_alignTop="@+id/cvTicket"
+        android:layout_alignEnd="@+id/cvTicket"
+        android:layout_alignBottom="@id/cvTicket"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="iphone 8 plus- new model 2020 brand new"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
+
+        android:layout_alignStart="@+id/cvTicket"
+        android:layout_alignBottom="@id/cvTicket"
+
+
+        android:layout_marginStart="277dp"
+
+
+        android:layout_marginBottom="26dp"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="#5956E9"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/minus"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_alignStart="@+id/cvTicket"
+        android:layout_alignBottom="@+id/cvTicket"
+        android:layout_marginLeft="240dp"
+        android:layout_marginBottom="25dp"
+
+        android:background="@drawable/round"
+        android:backgroundTint="#1F1BC8"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="-"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/plus"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_alignStart="@+id/cvTicket"
+        android:layout_alignBottom="@+id/cvTicket"
+
+        android:layout_marginStart="325dp"
+        android:layout_marginLeft="325dp"
+
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#1F1BC8"
+        android:fontFamily="@font/raleway_extrabold"
+        android:text="+"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
